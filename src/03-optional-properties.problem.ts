@@ -2,7 +2,7 @@ import { expect, it } from "vitest";
 
 type Params = {
   first: string
-  last?: string
+  last?: string // make this optional
 }
 
 export const getName = (params: Params) => {
