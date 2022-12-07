@@ -1,7 +1,7 @@
 import { expect, it } from "vitest";
 
 export const addTwoNumbers = (a: number, b: number) => {
-  return a + b; // To be implemented
+  return a + b;
 };
 
 it("Should add the two numbers together", () => {
