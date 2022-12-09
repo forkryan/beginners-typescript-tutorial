@@ -10,9 +10,9 @@ type LukeSkywalker = {
 }
 
 export const fetchLukeSkywalker = async () => {
-    const data: LukeSkywalker = await fetch('https://swapi.dev/api/people/1').then((res) => {
+    const data = await fetch('https://swapi.dev/api/people/1').then((res) => {
         return res.json()
     })
 
-    return data
+    return data as LukeSkywalker
 }
